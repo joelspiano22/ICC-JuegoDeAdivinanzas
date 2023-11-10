@@ -1,3 +1,4 @@
+CASO: Juego de adivinanzas
 Para esta práctica de laboratorio, necesitará usar bucles do-while y declaraciones if
 para construir un juego de adivinanzas. La computadora elegirá un número aleatorio
 entre 1 y 100 y el usuario deberá adivinar cuál es el número. Si el usuario adivina
