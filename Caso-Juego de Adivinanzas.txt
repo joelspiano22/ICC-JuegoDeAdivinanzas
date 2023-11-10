@@ -1,0 +1,22 @@
+Para esta práctica de laboratorio, necesitará usar bucles do-while y declaraciones if
+para construir un juego de adivinanzas. La computadora elegirá un número aleatorio
+entre 1 y 100 y el usuario deberá adivinar cuál es el número. Si el usuario adivina
+incorrectamente, la computadora indicará si la suposición del usuario fue demasiado
+alta o demasiado baja. Si el usuario adivina correctamente, la computadora informa
+cuántos intentos se necesitaron para obtener la respuesta correcta y luego pregunta al
+usuario si desea volver a jugar. Este programa requerirá cuatro bucles do-while:
+El ciclo do-while principal (el más externo) contendrá casi todo el código del
+programa y seguirá ejecutándose una y otra vez hasta que el usuario indique que ya
+no desea jugar.
+El bucle do-while del juego está anidado dentro del bucle do-while principal y seguirá
+ejecutándose una y otra vez hasta que el usuario adivine la respuesta correcta y gane
+el juego. Tan pronto como el usuario gane un juego, el programa saldrá de este bucle
+do-while.
+El ciclo do-while de validación de entrada numérica está anidado dentro del ciclo
+do-while del juego y garantizará que el usuario ingrese un número entero válido para
+cada suposición.
+El bucle do-while de validación de entrada no numérica se encuentra DESPUÉS y
+FUERA del bucle do-while del juego. Solo se ejecuta después de que se completa un
+juego y le pregunta al usuario si desea volver a jugar. Está anidado dentro del ciclo
+do-while primario y garantizará que el usuario ingrese un 'Y' / 'y' / 'N' / 'n' válido en
+respuesta a la pregunta "¿Le gustaría volver a jugar (Y/N )?” pregunta.
